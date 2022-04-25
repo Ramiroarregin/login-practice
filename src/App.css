@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+body{
+  box-sizing: content-box;
+}
+#login-page {
+  background-image: url("assets/login-background.jpg");
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome {
+  background-image: url("assets/welcome.webp");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+    
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.login-title {
+  color:white;
+  margin-top: 150px;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-subtitle {
+  color: #666666;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 86px;
+}
+
+.login-card {
+  background-color: white;
+  width: 55%;
+  margin-top: 71px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 88px;
+  padding-left: 88px;
+}
+
+
+.login-form {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  width: 100%;
+}
+
+
+.login-input {
+  background:  #F5F5F5;
+  border-radius: 10px;
+  height: 58px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.login-label { 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #666666;
+  margin-top: 45px;
+}
+
+.login-submit {
+  background: #000000;
+  border-radius: 10px;
+  width: 100%;
+  height: 58px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 45px;
+  margin-bottom: 53px;
+
+}
+
+
